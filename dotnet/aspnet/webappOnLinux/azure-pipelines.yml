@@ -32,7 +32,7 @@ steps:
 
 - task: VSBuild@1
   inputs:
-    solution: 'dotnet/aspnet/webappOnLinux/*'
+    solution: 'dotnet/aspnet/webappOnLinux/Application/*.sln'
  
 - task: PublishBuildArtifacts@1
   inputs:
