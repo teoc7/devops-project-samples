@@ -14,7 +14,7 @@ pool:
   vmImage: 'vs2017'
 
 variables:
-  solution: 'dotnet/aspnetcore/functionApp/Application/*.sln'
+  solution: 'dotnet/aspnetcore/functionApp/Application/SampleFunctionApp.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
 
