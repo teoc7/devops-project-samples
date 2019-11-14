@@ -40,6 +40,6 @@ steps:
       **\*test*.dll
       !**\*TestAdapter.dll
       !**\obj\**
-    searchFolder: '$(System.DefaultWorkingDirectory)dotnet/aspnet/mssqldbWithTests/Application/SampleWebApplication.UnitTests'
+    searchFolder: '$(System.DefaultWorkingDirectory)/dotnet/aspnet/mssqldbWithTests/Application/SampleWebApplication.UnitTests'
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
