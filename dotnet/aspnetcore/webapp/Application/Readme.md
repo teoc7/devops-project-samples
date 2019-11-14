@@ -1,3 +1,5 @@
+[![Build Status](https://dev.azure.com/GionaSimeoni/M.E.M.E/_apis/build/status/teoc7.devops-functionApp?branchName=master)](https://dev.azure.com/GionaSimeoni/M.E.M.E/_build/latest?definitionId=12&branchName=master)
+
 | Language | Framework | Platform | Author |
 | -------- | -------- |--------|--------|
 | ASP.NET Core | .NET Core 1.1 | Azure Web App, Virtual Machines |
