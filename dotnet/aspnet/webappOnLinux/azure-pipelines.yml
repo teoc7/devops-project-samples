@@ -24,24 +24,15 @@ variables:
 
 steps:
 
-- script: dotnet build --configuration $(buildConfiguration)
-  displayName: 'dotnet build $(buildConfiguration)'
-
-
 - task: NuGetToolInstaller@1
  
-
- 
-- task: UseDotNet@2
-  inputs:
-    version: '2.2.x'
-    packageType: runtime
-
-
 - task: NuGetCommand@2
   inputs:
     restoreSolution: '$(solution)'
 
+- task: VSBuild@1
+  inputs:
+    solution: '$(project)'
  
 - task: PublishBuildArtifacts@1
   inputs:
