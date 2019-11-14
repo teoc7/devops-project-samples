@@ -11,23 +11,24 @@ trigger:
    include:
      - dotnet/aspnetcore/functionApp/*
 pool:
-  vmImage: 'VS2017'
+  vmImage: 'vs2017-win2016'
 
 variables:
   solution: 'dotnet/aspnetcore/functionApp/Application/*.sln'
   buildConfiguration: 'Release'
 
 steps:
-
-- script: dotnet build --configuration $(buildConfiguration)
-  displayName: 'dotnet build $(buildConfiguration)'
-- task: NuGetToolInstaller@1
-
 - task: UseDotNet@2
   displayName: 'Install .NET Core SDK'
   inputs:
     version: 1.0.x
     performMultiLevelLookup: true
+
+- script: dotnet build --configuration $(buildConfiguration)
+  displayName: 'dotnet build $(buildConfiguration)'
+- task: NuGetToolInstaller@1
+
+
 - task: NuGetCommand@2
   inputs:
     restoreSolution: '$(solution)'
