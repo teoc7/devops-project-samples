@@ -12,7 +12,7 @@ trigger:
     - dotnet/aspnet/webappOnLinux/*
 
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: 'ubuntu-16.04'
 
 variables:
   solution:  'dotnet/aspnet/webappOnLinux/Application/*.sln'
