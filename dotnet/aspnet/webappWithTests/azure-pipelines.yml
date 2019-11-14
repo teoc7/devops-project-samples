@@ -39,6 +39,12 @@ steps:
     configuration: '$(buildConfiguration)'
 
 - task: DotNetCoreCLI@2
+  displayName: 'Restore project dependencies'
+  inputs:
+    command: 'restore'
+    projects: 'dotnet/aspnet/webappWithTests/Application/SampleWebApplication.UnitTests/*.UnitTests.csproj'
+
+- task: DotNetCoreCLI@2
   displayName: 'Esecuzione test'
   inputs:
     command: 'test'
