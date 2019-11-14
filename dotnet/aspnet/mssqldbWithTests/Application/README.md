@@ -1,3 +1,5 @@
+[![Build Status](https://dev.azure.com/GionaSimeoni/M.E.M.E/_apis/build/status/teoc7.devops-project-samples%20(3)?branchName=master)](https://dev.azure.com/GionaSimeoni/M.E.M.E/_build/latest?definitionId=6&branchName=master)
+
 | Language | Framework | Platform | Author |
 | -------- | -------- |--------|--------|
 | ASP.NET | .NET Framework | Azure Web App, Virtual Machine| |
