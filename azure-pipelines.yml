@@ -20,6 +20,11 @@ steps:
     versionSpec: '10.x'
   displayName: 'Install Node.js'
 
+- task: UseNode@1
+  inputs:
+   version: '10.x'
+  displayName: Install Node custum
+
 - script: |
     npm install
     npm run build
