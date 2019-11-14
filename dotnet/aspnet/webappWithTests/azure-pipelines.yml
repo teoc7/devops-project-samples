@@ -9,13 +9,13 @@ trigger:
      - master
  paths:
    include:
-     - dotnet/aspnet/mssqldb/*
+     - dotnet/aspnet/webappWithTests/*
 
 pool:
   vmImage: 'windows-latest'
 
 variables:
-  solution:  'dotnet/aspnet/mssqldb/Application/*.sln'
+  solution:  'dotnet/aspnet/webappWithTests/Application/*.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
 
