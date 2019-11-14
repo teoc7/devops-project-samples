@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWebApplication", "Sam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWebApplication.UnitTests", "SampleWebApplication.UnitTests\SampleWebApplication.UnitTests.csproj", "{F34965FD-E751-4F15-A5D0-759436E0C1B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWebApplication.FunctionalTests", "SampleWebApplication.FunctionalTests\SampleWebApplication.FunctionalTests.csproj", "{7D15A631-042A-4C9D-BA57-FF60AA7F48C8}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
