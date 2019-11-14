@@ -22,5 +22,6 @@ steps:
     rootFolderOrFile: ' php/plain/webapp/Application'
     includeRootFolder: false
 
+- task: PublishBuildArtifacts@1
 
 
