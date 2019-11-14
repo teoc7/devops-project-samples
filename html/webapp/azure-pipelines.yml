@@ -17,6 +17,6 @@ pool:
 steps:
 - task: ArchiveFiles@2
   inputs:
-    rootFolderOrFile: '$(build.sourcesDirectory)'
+    rootFolderOrFile: 'html/webapp/Application'
     includeRootFolder: false
 - task: PublishBuildArtifacts@1
