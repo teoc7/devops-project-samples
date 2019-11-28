@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: '2ee0e325-a19c-484f-99ac-415591606e9a'
   imageRepository: 'dotnetaspnet22'
   containerRegistry: 'containerregistryemanuele.azurecr.io'
-  dockerfilePath: '$(Build.SourcesDirectory)/dotnet/aspnetcore22/kubernetes/Application//Dockerfile'
+  dockerfilePath: '$(Build.SourcesDirectory)/dotnet/aspnetcore22/kubernetes/Application/aspnet-core-dotnet-core/Dockerfile'
   tag: '$(Build.BuildId)'
   
   # Agent VM image name
